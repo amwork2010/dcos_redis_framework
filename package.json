@@ -1,0 +1,29 @@
+{
+    "packagingVersion": "4.0",
+    "upgradesFrom": [
+        "0.1.1-5.0.5"
+    ],
+    "downgradesTo": [
+        "0.1.1-5.0.5"
+    ],
+    "minDcosReleaseVersion": "1.11",
+    "name": "fwredis",
+    "version": "0.1.1-5.0.5",
+    "maintainer": "support@YOURNAMEHERE.COM",
+    "description": "redis cluster on DC/OS",
+    "selected": false,
+    "framework": true,
+    "tags": [
+        "redis",
+        "keyvalue",
+        "5.0.5"
+    ],
+    "licenses": [
+        {
+            "name": "Apache License Version 2.0",
+            "url": "https://raw.githubusercontent.com/redis-io/redis/master/LICENSE"
+        }
+    ],
+    "postInstallNotes": "DC/OS redis is being installed!\n\n\tDocumentation: https://github.com/maibornwolff/dcos-redis\n\tIssues: https://github.com/maibornwolff/dcos-redis",
+    "postUninstallNotes": "DC/OS redis is being uninstalled."
+}
